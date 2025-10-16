@@ -1,0 +1,295 @@
+# ===========================================
+# RESERVARIO CHANNEL MANAGER - .gitignore
+# ===========================================
+
+# ===========================================
+# NODE.JS & NPM
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.yarn-integrity
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===========================================
+# BUILD OUTPUTS
+# ===========================================
+dist/
+dist-ssr/
+build/
+out/
+*.tsbuildinfo
+
+# ===========================================
+# ENVIRONMENT & CONFIGURATION
+# ===========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+config/local.json
+config/production.json
+config/development.json
+
+# ===========================================
+# LOGS
+# ===========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+backend/logs/
+frontend/logs/
+
+# ===========================================
+# DATABASE
+# ===========================================
+*.db
+*.sqlite
+*.sqlite3
+data/
+database/
+mongodb-data/
+
+# ===========================================
+# UPLOADS & MEDIA
+# ===========================================
+uploads/
+public/uploads/
+backend/uploads/
+frontend/public/uploads/
+temp/
+tmp/
+
+# ===========================================
+# TESTING
+# ===========================================
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+test-results.xml
+coverage.lcov
+
+# ===========================================
+# CACHE & TEMPORARY FILES
+# ===========================================
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test/
+
+# ===========================================
+# EDITOR & IDE
+# ===========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================================
+# RUNTIME & PROCESSES
+# ===========================================
+*.pid
+*.seed
+*.pid.lock
+pids/
+lib-cov/
+
+# ===========================================
+# SECURITY & KEYS
+# ===========================================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+keys/
+certificates/
+ssl/
+
+# ===========================================
+# BACKEND SPECIFIC
+# ===========================================
+backend/dist/
+backend/build/
+backend/logs/
+backend/uploads/
+backend/temp/
+backend/tmp/
+backend/.env
+backend/config/local.json
+backend/test-results/
+backend/coverage/
+backend/node_modules/
+backend/package-lock.json
+
+# ===========================================
+# FRONTEND SPECIFIC
+# ===========================================
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+frontend/.nuxt/
+frontend/.vuepress/dist
+frontend/node_modules/
+frontend/package-lock.json
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ===========================================
+# MOCK OTA SERVER
+# ===========================================
+mock-ota-server/dist/
+mock-ota-server/logs/
+mock-ota-server/node_modules/
+mock-ota-server/package-lock.json
+mock-ota-server/.env
+
+# ===========================================
+# DOCUMENTATION & TEMPORARY FILES
+# ===========================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+.nfs*
+
+# ===========================================
+# OS SPECIFIC
+# ===========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# PROJECT SPECIFIC
+# ===========================================
+# Test files
+test-*.js
+test-*.ts
+*-test.js
+*-test.ts
+test-results.json
+test-inventory-response.json
+inventory-test-result.json
+token.txt
+
+# Temporary scripts
+create-test-*.js
+fix-*.js
+fix-*.sh
+get-ids-*.ts
+reset-*.js
+view-*.js
+
+# Development files
+nul
+*.local
+
+# ===========================================
+# DEPLOYMENT & CI/CD
+# ===========================================
+.vercel
+.netlify
+.aws
+.docker
+docker-compose.override.yml
+.dockerignore
+
+# ===========================================
+# MONITORING & ANALYTICS
+# ===========================================
+.sentryclirc
+.sentry/
+monitoring/
+metrics/
+
+# ===========================================
+# BACKUP & ARCHIVE
+# ===========================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+backup/
+archives/
